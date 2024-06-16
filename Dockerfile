@@ -1,4 +1,4 @@
-FROM ghcr.io/jveraduran/github-container-registry:v1.0.3
+FROM ghcr.io/fundacion-instituto-profesional-duoc-uc/github-container-registry:v1.0.0
 
 COPY . .
 
