@@ -1,0 +1,13 @@
+name: Github Actions Linter
+on:
+  workflow_call:
+
+jobs:
+  Action-lint:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install Linter
+        run: brew install actionlint
+      - name: Execute Linter
+        run: actionlint
