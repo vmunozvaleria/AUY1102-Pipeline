@@ -16,8 +16,11 @@ jobs:
           node-version: 20
           cache-dependency-path: package-lock.json
           registry-url: https://npm.pkg.github.com
+      - run: echo '${{secrets.NPMRC_TOKEN}}' > ${{github.workspace}}/.npmrc
       - run: npm install
       - run: npm ci
+      - run: npm audit signatures
+      - run: rm -f .npmrc
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.PAT_GITHUB_TOKEN}}
