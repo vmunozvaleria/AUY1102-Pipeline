@@ -1,5 +1,9 @@
 {
   "name": "@Fundacion-Instituto-Profesional-Duoc-UC/auy1102-pipeline",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fundacion-Instituto-Profesional-Duoc-UC/AUY1102-Pipeline.git"
+  },
   "version": "1.0.0",
   "description": "AUY1102",
   "publishConfig": {
