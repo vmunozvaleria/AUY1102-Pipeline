@@ -1,7 +1,7 @@
 {
-  "name": "@Fundacion-Instituto-Profesional-Duoc-UC/github-npm-registry-be",
-  "version": "1.0.13",
-  "description": "<p align=\"left\" style=\"text-align:left;\">   <a href=\"https://www.githubuniverse.com/\">     <img alt=\"Github Universe\" src=\"img/github-universe-2022.png\" width=\"1040\"/>   </a> </p>",
+  "name": "@Fundacion-Instituto-Profesional-Duoc-UC/AUY1102-Pipeline",
+  "version": "1.0.0",
+  "description": "AUY1102",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
