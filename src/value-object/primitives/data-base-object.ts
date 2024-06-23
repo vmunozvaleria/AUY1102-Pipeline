@@ -4,5 +4,4 @@ const users = await connection.query(
    WHERE clientId = ${clientId} 
     AND name LIKE %${name}%;`
 );
-
 await connection.end();
