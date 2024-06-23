@@ -1,5 +1,5 @@
 #!/bin/sh
-#. "$(dirname "$0")/_/husky.sh"
+. "$(dirname "$0")/_/husky.sh"
 
-#Run tests
-#npm run test:unit
+Run tests
+npm run test:unit
