@@ -1,7 +1,7 @@
-const users = await connection.query(
-  `SELECT * 
-   FROM users 
-   WHERE clientId = ${clientId} 
-    AND name LIKE %${name}%;`
-);
-await connection.end();
+// Intento de inyección SQL intencionado
+const username = "admin'; DROP TABLE Users; --";
+const password = 'password123';
+
+const queryString = `SELECT * FROM Users WHERE username='${username}' AND password='${password}'`;
+
+console.log(queryString);
