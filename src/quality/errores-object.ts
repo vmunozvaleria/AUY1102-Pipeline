@@ -1,4 +1,4 @@
-// Consistencia 
+// Consistencia
 const value = 10;
 const resultadoFinal = value * 2;
 
@@ -8,8 +8,7 @@ const message: string = 10;
 // Responsabilidad
 
 class UserService {
-    getUserData() {
-    }
-    sendEmail() {
-    }
+  getUserData() {}
+
+  sendEmail() {}
 }

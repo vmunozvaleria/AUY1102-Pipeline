@@ -9,8 +9,8 @@ const html = `<div>${userInput}</div>`;
 // CSRF
 
 app.post('/change-password', (req, res) => {
-    const newPassword = req.body.newPassword;
-    // Cambiar la contraseña sin verificar el token CSRF
+  const newPassword = req.body.newPassword;
+  // Cambiar la contraseña sin verificar el token CSRF
 });
 
 // Deserialización
@@ -22,12 +22,11 @@ const data = JSON.parse(req.body);
 const dbPassword = 'password123';
 // const apiSecretKey = 'supersecretkey123'; // No usar en producción
 const config = {
-    dbUsername: 'admin',
-    dbPassword: 'password123',
-    apiKey: 'abc123'
+  dbUsername: 'admin',
+  dbPassword: 'password123',
+  apiKey: 'abc123',
 };
 
 const hashedPassword = hash('password123');
 
 console.log(`Error: La contraseña ${dbPassword} no es válida`);
-

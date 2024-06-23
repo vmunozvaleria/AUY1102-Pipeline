@@ -6,3 +6,6 @@ node_modules
 .husky
 .vscode
 resources
+src/quality/*
+./src/quality/*
+/src/quality/*
