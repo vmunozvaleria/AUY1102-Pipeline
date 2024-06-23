@@ -8,4 +8,3 @@ node_modules
 resources
 src/quality/*
 ./src/quality/*
-/src/quality/*
