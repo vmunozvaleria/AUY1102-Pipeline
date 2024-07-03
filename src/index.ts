@@ -1,7 +1,7 @@
 export * from './value-object';
 
-// Este es un ejemplo de código JavaScript que expone una clave API sensible
-const apiKey = "12345-abcde-67890-fghij"; // Esto es un secreto
+const apiKey = "12345-abcde-67890-fghij";
+const githubToken = "ghp_1234567890abcdefghijklmnopqrstuvwx";
 
 function fetchData() {
     fetch(`https://api.example.com/data?api_key=${apiKey}`)
